@@ -1,0 +1,29 @@
+{
+  "exclude": [
+    "node_modules",
+    "postgres-data"
+  ],
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "src",
+    "baseUrl": "./",
+    "paths": {
+      "@root": ["./"],
+      "@src/*": ["src/*"],
+      "@plugins/*": ["src/config/plugins/*"],
+      "@presentation/*": ["src/presentation/*"],
+      "@domain/*": ["src/domain/*"],
+      "@useCases/*": ["src/domain/use-cases/*"],
+      "@infrastructure/*": ["src/infrastructure/*"],
+      "@data/*": ["src/data/*"]
+    },
+    "resolveJsonModule": true,
+    "outDir": "dist/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
