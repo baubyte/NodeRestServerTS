@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsnd -r tsconfig-paths/register --respawn --clear src/app.ts",
-    "build": "rimraf dist && tsc && tsc-alias -p tsconfig.json && prisma:migrate:prod",
+    "build": "rimraf dist && tsc && tsc-alias -p tsconfig.json && npm run prisma:migrate:prod",
     "start": "node dist/app.js",
     "prisma:migrate:prod": "prisma migrate deploy"
   },
