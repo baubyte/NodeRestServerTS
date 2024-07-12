@@ -17,7 +17,8 @@
       "@domain/*": ["src/domain/*"],
       "@useCases/*": ["src/domain/use-cases/*"],
       "@infrastructure/*": ["src/infrastructure/*"],
-      "@data/*": ["src/data/*"]
+      "@data/*": ["src/data/*"],
+      "@dtos/*": ["src/domain/dtos/*"],
     },
     "resolveJsonModule": true,
     "outDir": "dist/",
