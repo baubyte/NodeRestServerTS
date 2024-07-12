@@ -12,5 +12,5 @@ function  main() {
         node_env: envs.NODE_ENV,
         routes: AppRoutes.routes
     });
-    server.start();
+    server.start(); 
 }
