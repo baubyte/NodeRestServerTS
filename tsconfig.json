@@ -19,6 +19,7 @@
       "@infrastructure/*": ["src/infrastructure/*"],
       "@data/*": ["src/data/*"],
       "@dtos/*": ["src/domain/dtos/*"],
+      "@entities/*": ["src/domain/entities/*"],
     },
     "resolveJsonModule": true,
     "outDir": "dist/",
